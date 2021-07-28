@@ -73,6 +73,6 @@ describe('9 - Implemente os casos de teste para a função `getCharacter`', () =
     assert.deepStrictEqual(getCharacter('Brienne'), dataBrienne); // Teste se a função retorna o objeto correto para o parâmetro 'Brienne'.
     assert.deepStrictEqual(getCharacter('Melissandre'), dataMelissandre); // Teste se a função retorna o objeto correto para o parâmetro 'Melissandre',
     assert.deepStrictEqual(getCharacter('ArYa'), dataArya) // Teste se a função se os parâmetros não são Case Sensitive.
-    assert.deepStrictEqual(getCharacter('Hinata'), undefined) // Teste se ao passar um nome que não está na tabela, a função retorna undefined.
+    assert.deepStrictEqual(getCharacter('Ana'), undefined) // Teste se ao passar um nome que não está na tabela, a função retorna undefined.
   });
 });
